@@ -1,6 +1,7 @@
 # https://v1-19.docs.kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/
 # kubectl -n kube-system edit cm kubeadm-config -oyaml (Useful Command)
 # For downgrade remove (-y) 
+# kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml (For v.16 or greater)
 
 apt-cache madison kubeadm
 

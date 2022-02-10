@@ -1,6 +1,6 @@
 # https://v1-19.docs.kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/
 # kubectl -n kube-system edit cm kubeadm-config -oyaml (Useful Command)
-
+# For downgrade remove (-y) 
 
 apt-cache madison kubeadm
 

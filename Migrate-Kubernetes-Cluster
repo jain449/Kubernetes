@@ -7,13 +7,13 @@ apt-cache madison kubeadm
 
 --- on broker0 Control Plane
 sudo apt-get update
-sudo apt-get install -y --allow-change-held-packages kubeadm=1.15.0-00
+sudo apt-get install -y --allow-change-held-packages kubeadm=1.19.5-00
 
 kubectl drain broker0 --ignore-daemonsets
 
-sudo kubeadm upgrade plan v1.15.0
+sudo kubeadm upgrade plan v1.19.5
 
-sudo kubeadm upgrade apply v1.15.0
+sudo kubeadm upgrade apply v1.19.5
 
 sudo apt-get update 
 sudo apt-get install -y --allow-change-held-packages kubelet=1.15.0-00 kubectl=1.15.0-00

@@ -4,6 +4,7 @@
 # kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml (For v.16 or greater)
 
 # kubectl delete -f https://raw.githubusercontent.com/coreos/flannel/3f7d3e6c24f641e7ff557ebcea1136fdf4b1b6a1/Documentation/kube-flannel.yml
+# https://kubernetes.github.io/ingress-nginx/deploy/
 
 apt-cache madison kubeadm
 
